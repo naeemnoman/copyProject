@@ -16,6 +16,6 @@ class MainActivity : AppCompatActivity() {
         Handler(Looper.getMainLooper()).postDelayed({
 startActivity(Intent(this@MainActivity, ProductActivity::class.java))
             finish()
-        }, 9000)
+        }, 7000)
     }
 }
